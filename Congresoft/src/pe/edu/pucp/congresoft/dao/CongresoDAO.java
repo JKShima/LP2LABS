@@ -1,15 +1,9 @@
 package pe.edu.pucp.congresoft.dao;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import java.util.ArrayList;
+import pe.edu.pucp.congresoft.model.Congreso;
 
-/**
- *
- * @author JOSE
- */
 public interface CongresoDAO {
-    
+    int insertar(Congreso congreso);
+    ArrayList<Congreso> listar();
 }
